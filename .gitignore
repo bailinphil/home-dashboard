@@ -2,5 +2,6 @@
 __pycache__/
 *.pyc
 config.local.yaml
+firmware/dashboard/config.h
 server/output/
 server/state/

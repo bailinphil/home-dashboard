@@ -59,6 +59,9 @@ def create_app(data_provider=None, state_dir=None, config=None):
             if mgr.active_name() == "home":
                 data = provide({"device": device, "battery_v": battery})
             img = mgr.render_active(data)
+            # The panel visually applies a 90deg CW turn; pre-rotate CCW
+            # so it displays upright when the board is mounted portrait.
+            img = img.rotate(90, expand=True)
         except Exception as e:
             store.record_failure(device, str(e))
             raise

@@ -45,7 +45,7 @@ def test_image_endpoint_serves_palette_pure_png(client):
     r = client.get(m["image_url"])
     assert r.status_code == 200
     img = Image.open(io.BytesIO(r.data))
-    assert img.size == (1200, 1600)
+    assert img.size == (1600, 1200)      # served rotated for the landscape framebuffer
     assert is_palette_pure(img)
 
 
