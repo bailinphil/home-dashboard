@@ -17,7 +17,7 @@ air_quality:
   read_url: "http://ino.bailinphil.com/air_latest.json"
 
 backlog:
-  url: "https://bailinphil.com/backlog"
+  feed_url: "https://bailinphil.com/backlog/feed"
 
 routine:
   path: routine.yaml
