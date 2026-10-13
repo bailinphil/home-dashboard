@@ -1,0 +1,25 @@
+{
+  "lat": 40.7,
+  "lon": -74.0,
+  "timezone": "America/New_York",
+  "current": {
+    "dt": 1760544000,
+    "sunrise": 1760517000,
+    "sunset": 1760558000,
+    "temp": 58.2,
+    "feels_like": 56.0,
+    "pressure": 1015,
+    "humidity": 62,
+    "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}]
+  },
+  "hourly": [{"dt": 1760544000, "temp": 58.2, "pop": 0.1}],
+  "daily": [{
+    "dt": 1760529600,
+    "sunrise": 1760517000,
+    "sunset": 1760558000,
+    "summary": "Partly cloudy",
+    "temp": {"day": 62.0, "min": 48.0, "max": 66.0, "night": 50.0, "eve": 60.0, "morn": 52.0},
+    "pop": 0.15,
+    "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}]
+  }]
+}

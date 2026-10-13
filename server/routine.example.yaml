@@ -1,0 +1,25 @@
+# Kids' daily routine. Copy to routine.yaml and edit to match your family.
+# Groups "weekdays"/"weekends" apply unless a specific day (mon..sun) overrides.
+
+weekdays:
+  - {time: "06:45", activity: "time to wake up"}
+  - {time: "07:15", activity: "get dressed"}
+  - {time: "07:45", activity: "breakfast"}
+  - {time: "08:20", activity: "shoes on, leave for school"}
+  - {time: "15:30", activity: "home from school, snack"}
+  - {time: "16:00", activity: "play time"}
+  - {time: "18:00", activity: "dinner"}
+  - {time: "19:15", activity: "bath and pajamas"}
+  - {time: "19:45", activity: "brush teeth, books"}
+  - {time: "20:15", activity: "lights out"}
+
+weekends:
+  - {time: "07:30", activity: "time to wake up"}
+  - {time: "08:00", activity: "breakfast"}
+  - {time: "09:00", activity: "morning play"}
+  - {time: "12:00", activity: "lunch"}
+  - {time: "13:00", activity: "quiet time"}
+  - {time: "14:00", activity: "afternoon play"}
+  - {time: "18:00", activity: "dinner"}
+  - {time: "19:15", activity: "bath and pajamas"}
+  - {time: "20:15", activity: "lights out"}

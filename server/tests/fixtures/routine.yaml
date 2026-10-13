@@ -1,0 +1,13 @@
+weekdays:
+  - {time: "07:00", activity: "wake up"}
+  - {time: "08:00", activity: "breakfast"}
+  - {time: "08:30", activity: "leave for school"}
+  - {time: "20:00", activity: "bedtime"}
+
+sat:
+  - {time: "09:00", activity: "pancakes"}
+  - {time: "21:00", activity: "bedtime"}
+
+weekends:
+  - {time: "08:30", activity: "wake up"}
+  - {time: "21:00", activity: "bedtime"}
