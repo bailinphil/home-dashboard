@@ -11,6 +11,7 @@ This project is a dashboard meant to show my family information about the day's 
    2. What activity is current (play, dinner, get ready to go to school, etc.)
    3. How many minutes until the next step (showing what the analog clock above will look like when it's time to change)
 4. Display recent air quality readings from my [sensors in the kitchen](https://github.com/bailinphil/kitchen-lights)
+5. Display the Inkplate's own battery status, so I know when it needs charging
 
 # Hardware
 
